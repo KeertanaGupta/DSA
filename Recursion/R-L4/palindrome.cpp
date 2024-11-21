@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 using namespace std;
 bool isPalindrome(int l,string str){
     int r=str.length();
@@ -10,7 +11,7 @@ bool isPalindrome(int l,string str){
 }
 int main(){
     string str;
-    cin>>str;
+    getline(cin, str);
     if(isPalindrome(0,str))
         cout<<str<<" is a palindrome";
     else   
