@@ -15,7 +15,7 @@ int main(){
     }
     //map stores in sorted order
     //proof
-    for(auto it : mpp){ //for traversing in map we use auto iterator(auto it)
+    for(auto it : mpp){ //for traversing(iterate) in map we use auto iterator(auto it)
         cout<<it.first<<"->"<<it.second<<endl;
     }
     int q;
