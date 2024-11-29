@@ -3,8 +3,8 @@
 using namespace std;
 void merge(int arr[],int low, int mid,int high){
     vector<int> vec;
-    int left = low;
-    int right = mid+1;
+    int left = low;  //[low...mid]
+    int right = mid+1;  //[mid+1...high]
     while(left<=mid && right<=high){
         if(arr[left]<=arr[right]){
             vec.push_back(arr[left]);
@@ -48,7 +48,7 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    mergeSort(arr,0,n);
+    mergeSort(arr,0,n-1);
     cout << "Sorted array: ";
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
