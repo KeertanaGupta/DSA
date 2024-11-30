@@ -18,12 +18,12 @@ int main(){
         temp[i]=arr[i];
     }
     for(int i=0;i<n-D;i++){
-        arr[i]=arr[k];
+        arr[i]=arr[k];  //if not k then --> arr[i]=arr[i+D]
         k++;
     }
     k=0;
     for (int i=n-D;i<n;i++) {
-        arr[i]=temp[k];
+        arr[i]=temp[k];   //if not k then --> arr[i]=arr[i-n+D]
         k++;
     }
     cout << "Array after "<<D<<" rotations: ";
