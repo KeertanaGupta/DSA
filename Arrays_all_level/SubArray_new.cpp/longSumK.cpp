@@ -1,13 +1,12 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int N,k;
+    int N,k,count=0;;
     cin>>N>>k;
     int arr[N];
     for(int i=0;i<N;i++){
       cin>>arr[i];
     }
-    int count=0;
     for(int i=0;i<N;i++){
       int sum=0;
       for(int j=i;j<N;j++){
