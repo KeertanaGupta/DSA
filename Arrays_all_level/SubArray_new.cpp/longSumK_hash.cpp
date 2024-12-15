@@ -9,4 +9,4 @@ int main(){
       cin>>arr[i];
     }
     return 0;
-}
+} 
