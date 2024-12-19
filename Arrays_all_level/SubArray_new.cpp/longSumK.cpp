@@ -13,7 +13,7 @@ int main(){
         sum +=arr[j];
         if(sum==k){
         count=max(count,j-i+1);
-      }
+        }
       }
     }
     cout<<count<<endl;
