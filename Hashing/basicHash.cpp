@@ -8,7 +8,7 @@ int main(){
         cin>>arr[i];
     }
 
-    int hash[13] ={0}; //assuming arr can contain max value of 12
+    int hash[13] ={0}; //assuming array can contain max value of 12
     for(int i=0;i<n;i++){
         hash[arr[i]]+=1;
     }
