@@ -14,7 +14,6 @@ vector<int> twoSum(int n, vector<int> &arr, int target) {
     }
     return { -1, -1};
 }
-
 int main()
 {
     int n = 5;
