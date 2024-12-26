@@ -13,7 +13,6 @@ string twoSum(int n, vector<int> &arr, int target) {
     }
     return "NO";
 }
-
 int main()
 {
     int n = 5;
