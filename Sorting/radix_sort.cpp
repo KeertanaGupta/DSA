@@ -39,7 +39,7 @@ void radix_sort(string padded_array[], int n, int max_digits) {
         // Count occurrences of each digit
         for (int i = 0; i < n; i++) {
             int d = padded_array[i][digit] - '0';
-            count[d]++;
+            count[d]++; 
         }
 
         // Update count to contain position info
