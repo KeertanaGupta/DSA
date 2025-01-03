@@ -6,7 +6,7 @@ class A{
   protected: int x;
   public: 
     void read_display(){
-      cout<<"This is display function of base class\n";
+      cout<<"This is display func of base class\n";
       cout<<"Enter Value of x: ";
       cin>>x;
       cout<<x<<endl;
@@ -16,7 +16,7 @@ class B:public A{
   protected:int y;
   public: 
     void read_show(){
-      cout<<"This is show function of base class\n";
+      cout<<"This is show func of base class\n";
       cout<<"Enter Value of x and y: ";
       cin>>x>>y;
       cout<<x<<" "<<y<<endl;
