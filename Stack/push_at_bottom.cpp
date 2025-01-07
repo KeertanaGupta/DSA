@@ -1,6 +1,7 @@
 #include<iostream>
 #include<stack>
 using namespace std;
+
 void pushAtBottom(stack<int> &s,int data){
     if(s.empty()){
       s.push(data);
