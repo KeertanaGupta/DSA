@@ -2,14 +2,14 @@
 #include<stack>
 using namespace std;
 
-void pushAtBottom(stack<int> &s,int data){
+void pushAtBtm(stack<int> &s,int data){
     if(s.empty()){
       s.push(data);
       return;
     }
     int top=s.top();
     s.pop();
-    pushAtBottom(s,data);
+    pushAtBtm(s,data);
     s.push(top);
   }
 int main(){
@@ -18,7 +18,7 @@ int main(){
   s.push(2);
   s.push(3);
   int data=4;
-  pushAtBottom(s,data);
+  pushAtBtm(s,data);
   cout << "Stack elements from top to bottom:" << endl;
     while (!s.empty()) {
         cout << s.top() << " ";
