@@ -25,14 +25,12 @@ class Stack{
       return list.empty();
     }
 };
-
 int main(){
   Stack s;
   s.push(1);
   s.push(2);
   s.push(3);
   s.push(4);
-
   while (!s.isEmpty()) {
         cout << s.peek() << endl;
         s.pop();
